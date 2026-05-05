@@ -10,11 +10,6 @@
     };
 };
 
-// ペリフェラル（split経由）のリスナーを有効化
-&peripheral_listener {
-    status = "okay";
-};
-
 // セントラルのリスナーを有効化し、deviceを紐付け
 &central_listener {
     status = "okay";
