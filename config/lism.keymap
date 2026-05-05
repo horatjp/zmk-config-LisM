@@ -170,12 +170,14 @@
         };
 
         SYMBOL {
+            // layer 3
+
             display-name = "SYMBOL";
             bindings = <
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH       &kp DOLLAR  &kp PERCENT          &kp AMPERSAND  &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
+                &kp TILDE        &kp CARET          &kp PIPE       &kp GRAVE   &trans               &kp SEMI       &kp COLON  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL
+                &trans           &kp INT_YEN        &kp BACKSLASH  &kp UNDER   &trans               &kp PLUS       &kp ASTRK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
+                &trans           &trans             &trans         &trans      &trans  &kp DELETE    &kp DELETE  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
