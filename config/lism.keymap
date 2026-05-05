@@ -196,12 +196,14 @@
         };
 
         MOUSE {
+            // layer 5: auto-activated by trackball input
+
             display-name = "MOUSE";
             bindings = <
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans          &trans    &mkp MB3  &mkp MB3  &trans    &trans
+                &trans  &trans  &trans  &trans  &trans          &mkp MB4  &mkp MB1  &trans    &mkp MB2  &mkp MB5
+                &trans  &trans  &trans  &trans  &trans          &trans    &trans    &trans    &trans    &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans    &trans
             >;
         };
 
