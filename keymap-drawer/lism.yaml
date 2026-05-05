@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: lism}
 layers:
-  Default Layer:
+  WIN:
   - Q
   - W
   - E
@@ -11,168 +11,297 @@ layers:
   - I
   - O
   - P
-  - A
-  - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
-  - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
-  - Z
-  - X
-  - C
+  - {t: A, h: LEFT CONTROL}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - {t: K, h: SCROLL}
+  - L
+  - {t: '-', h: RIGHT CONTROL}
+  - {t: Z, h: LEFT SHIFT}
+  - {t: X, h: LEFT WIN}
+  - {t: C, h: LEFT ALT}
   - V
   - B
   - N
   - M
-  - ','
-  - .
-  - /
-  - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
+  - {t: ',', h: RIGHT ALT}
+  - {t: ., h: RIGHT WIN}
+  - {t: /, h: RIGHT SHIFT}
+  - {t: ENTER, h: DEVICE}
+  - TAB
+  - DEL
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
-  - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
+  - {t: SPACE, h: SYMBOL}
+  - {t: BS, h: ARROW}
+  - {t: BS, h: ARROW}
+  - {t: ENTER, h: NUMBER}
   - Sft+Gui+4
+  - DEL
+  - TAB
+  - {t: ENTER, h: DEVICE}
+  MAC:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: A, h: LEFT GUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '-', h: RIGHT GUI}
+  - {t: ▽, type: trans}
+  - {t: X, h: LEFT CONTROL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ., h: RIGHT CONTROL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUMBER:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
   - F7
+  - F8
+  - F9
   - F10
-  - {t: F12, h: Device Layer}
-  Mouse Layer:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - F11
+  - F12
+  - F13
+  - F14
+  - F15
+  - '='
+  - '-'
+  - +
+  - ASTRK
+  - KP DIVIDE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↑
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↓
-  - ←
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
+  - DEL
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↓
-  - {t: ▽, type: trans}
-  - Gui+W
-  Number Layer:
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - '='
-  - F1
-  - F2
-  - F7
-  - F10
-  - RSHIFT
-  - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
-  - /
-  - '1'
-  - '2'
-  - '3'
-  - +
-  - '&mkp MB2'
-  - ''
-  - ↓
-  - ''
-  - RALT
-  - {t: ▽, type: trans}
-  - .
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LANG1
-  - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - F12
-  Mark Layer:
-  - Sft+Gui+4
-  - F4
-  - (
-  - )
-  - ''
-  - '~'
+  SYMBOL:
   - '!'
-  - '@'
+  - '"'
   - '#'
   - $
-  - '&emoji'
-  - F5
-  - '['
-  - ']'
-  - ''
+  - '%'
+  - '&'
+  - SQT
+  - (
+  - )
+  - '@'
+  - '~'
+  - ^
+  - '|'
   - '`'
-  - _
-  - ''''
-  - '"'
-  - {t: \, type: held}
-  - KP NUMLOCK
-  - F11
+  - {t: ▽, type: trans}
+  - SEMI
+  - ':'
   - '{'
   - '}'
-  - ''
-  - '|'
-  - '%'
-  - ^
-  - '&'
-  - '*'
+  - '='
+  - {t: ▽, type: trans}
+  - INT YEN
+  - \
+  - _
+  - {t: ▽, type: trans}
+  - +
+  - ASTRK
+  - '['
+  - ']'
+  - QUESTION
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - DEL
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  ARROW:
+  - Ctl+Sft+TAB
+  - PAGE UP
+  - UP ARROW
+  - PAGE DOWN
+  - Ctl+TAB
+  - Sft+Ctl+TAB
+  - PAGE UP
+  - UP ARROW
+  - PAGE DOWN
+  - Ctl+TAB
+  - {t: HOME, h: LEFT CONTROL}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - END
+  - HOME
+  - LEFT ARROW
+  - ↓
+  - →
+  - {t: END, h: RIGHT CONTROL}
+  - {t: Sft+Alt+TAB, h: LEFT SHIFT}
+  - Gui+Ctl+LEFT ARROW
   - SPACE
+  - Gui+Ctl+RIGHT ARROW
+  - Alt+TAB
+  - Alt+Sft+TAB
+  - Gui+Ctl+←
+  - SPACE
+  - Gui+Ctl+→
+  - {t: AltGr+TAB, h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - F12
-  Device Layer:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: DEL, type: held}
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  MOUSE:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SCROLL:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB1'
+  - {type: held}
+  - '&mkp MB2'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  DEVICE:
   - ''
   - ''
   - ''
@@ -210,8 +339,33 @@ layers:
   - ''
   - ''
   - '&studio_unlock'
-  - ''
+  - '&tog_ls'
   - ''
   - ''
   - ''
   - Boot
+combos:
+- p: [1, 2]
+  k: ESCAPE
+- p: [11, 12]
+  k: TAB
+- p: [12, 13]
+  k: BS
+- p: [21, 22]
+  k: INTERNATIONAL 5
+- p: [27, 28]
+  k: INTERNATIONAL 4
+- p: [7, 8]
+  k: ESCAPE
+- p: [17, 18]
+  k: TAB
+- p: [16, 17]
+  k: BS
+- p: [2, 3]
+  k: ':'
+- p: [6, 7]
+  k: ':'
+- p: [22, 23]
+  k: ;
+- p: [26, 27]
+  k: ;
