@@ -132,7 +132,7 @@
                 &lt 7 ENTER         &kp TAB         &kp DELETE      &kp LS(LG(N4))  &lt 3 SPACE  &lt 3 BACKSPACE    &lt 3 BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp DELETE  &kp TAB  &lt 7 ENTER
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&encoder_kp UP DOWN>;
         };
 
         MAC {
@@ -147,7 +147,7 @@
                 &trans          &trans              &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&encoder_kp UP DOWN>;
         };
 
         NUMBER {
@@ -160,6 +160,8 @@
                 &kp F11       &kp F12       &kp F13       &kp F14       &kp F15              &kp EQUAL  &kp MINUS  &kp PLUS   &kp ASTRK  &kp KP_DIVIDE
                 &trans        &trans        &trans        &trans        &trans  &kp DEL       &kp DELETE  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp RIGHT LEFT>;
         };
 
         SYMBOL {
@@ -172,6 +174,8 @@
                 &trans           &kp INT_YEN        &kp BACKSLASH  &kp UNDER   &trans               &kp PLUS       &kp ASTRK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
                 &trans           &trans             &trans         &trans      &trans  &kp DELETE    &kp DELETE  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp RIGHT LEFT>;
         };
 
         ARROW {
