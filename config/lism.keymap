@@ -101,7 +101,7 @@
             compatible = "zmk,input-processor-temp-layer";
             #input-processor-cells = <2>;
             require-prior-idle-ms = <200>;
-            excluded-positions = <6 7 15 16 18 19>;
+            excluded-positions = <6 7 16 18>;
         };
 
         encoder_msc: sensor_rotate_msc {
