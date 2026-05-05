@@ -18,15 +18,7 @@
     quick-tap-ms = <150>;
 };
 
-&trackball {
-    scroll-layers = <6>;
-};
-
 / {
-    trackball_listener {
-        input-processors = <&zip_mouse_layer 5 10000>;
-    };
-
     mkp_input_listener {
         compatible = "zmk,input-listener";
         device = <&mkp>;
