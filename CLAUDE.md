@@ -50,14 +50,17 @@ LisMは左右分割キーボード。デフォルトは右側がCentral（BLEホ
 - ZMK Studio対応版には `-DCONFIG_ZMK_STUDIO=y` と `studio-rpc-usb-uart` snippetが必要
 - セントラル／ペリフェラルを入れ替える場合は `build.yaml` の該当ブロックをコメントアウト／アンコメント
 
+**現在のハードウェア構成**: 左=水平ロータリーエンコーダ、右=トラックボール
+→ 書き込むファームウェア: 左に `lism_left_peripheral_non_trackball`、右に `lism_right_central_trackball`
+
 ### ファームウェアの種類
 
 | ファームウェア | 説明 | 書き込み対象 |
 |---|---|---|
-| `lism_left_peripheral_non_trackball` | 左側ペリフェラル、トラックボールなし | 左 |
+| `lism_left_peripheral_non_trackball` | 左側ペリフェラル、エンコーダ ★現構成 | 左 |
 | `lism_left_peripheral_trackball` | 左側ペリフェラル、トラックボールあり | 左 |
-| `lism_right_central_non_trackball` | 右側セントラル、トラックボールなし | 右 |
-| `lism_right_central_trackball` | 右側セントラル、トラックボールあり | 右 |
+| `lism_right_central_non_trackball` | 右側セントラル、エンコーダ | 右 |
+| `lism_right_central_trackball` | 右側セントラル、トラックボールあり ★現構成 | 右 |
 | `lism_right_central_non_trackball_studio` | 右側セントラル、トラックボールなし、ZMK Studio対応 | 右 |
 | `lism_right_central_trackball_studio` | 右側セントラル、トラックボールあり、ZMK Studio対応 | 右 |
 | `settings_reset-seeeduino_xiao_ble-zmk` | 設定リセット用（ペアリング情報消去など） | 左右両方 |
