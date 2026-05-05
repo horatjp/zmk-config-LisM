@@ -182,13 +182,17 @@
         };
 
         ARROW {
+            // layer 4
+
             display-name = "ARROW";
             bindings = <
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &kp LC(LS(TAB))             &kp PAGE_UP            &kp UP_ARROW    &kp PAGE_DOWN           &kp LC(TAB)               &kp LS(LC(TAB))  &kp PAGE_UP       &kp UP_ARROW  &kp PAGE_DOWN      &kp LC(TAB)
+                &mt LEFT_CONTROL HOME       &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW         &kp END                   &kp HOME         &kp LEFT_ARROW    &kp DOWN      &kp RIGHT          &mt RIGHT_CONTROL END
+                &mt LEFT_SHIFT LS(LA(TAB))  &kp LG(LC(LEFT_ARROW)) &kp SPACE       &kp LG(LC(RIGHT_ARROW)) &kp LA(TAB)               &kp LA(LS(TAB))  &kp LG(LC(LEFT))  &kp SPACE     &kp LG(LC(RIGHT))  &mt RIGHT_SHIFT RA(TAB)
+                &trans                      &trans                 &trans          &trans                  &trans  &kp DELETE          &kp DELETE  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
