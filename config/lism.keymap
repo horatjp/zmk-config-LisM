@@ -129,13 +129,17 @@
         compatible = "zmk,keymap";
 
         WIN {
+            // layer 0: Windows base layer
+
             display-name = "WIN";
             bindings = <
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &kp Q               &kp W           &kp E           &kp R           &kp T               &kp Y        &kp U  &kp I               &kp O              &kp P
+                &mt LEFT_CONTROL A  &kp S           &kp D           &kp F           &kp G               &kp H        &kp J  &lt 6 K             &kp L              &mt RIGHT_CONTROL MINUS
+                &mt LEFT_SHIFT Z    &mt LEFT_WIN X  &mt LEFT_ALT C  &kp V           &kp B               &lt 4 N      &kp M  &mt RIGHT_ALT COMMA &mt RIGHT_WIN DOT  &mt RIGHT_SHIFT SLASH
+                &lt 7 ENTER         &kp TAB         &kp DELETE      &kp LS(LG(N4))  &lt 3 SPACE  &lt 3 BACKSPACE    &lt 3 BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp DELETE  &kp TAB  &lt 7 ENTER
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
         MAC {
