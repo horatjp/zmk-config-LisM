@@ -33,14 +33,14 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - {t: ENTER, h: DEVICE}
   - TAB
-  - DEL
-  - Sft+Gui+4
+  - Sft+Gui+S
+  - ''
   - {t: SPACE, h: SYMBOL}
   - {t: BS, h: ARROW}
   - {t: BS, h: ARROW}
   - {t: ENTER, h: NUMBER}
-  - Sft+Gui+4
-  - DEL
+  - ''
+  - Sft+Gui+S
   - TAB
   - {t: ENTER, h: DEVICE}
   MAC:
@@ -75,16 +75,16 @@ layers:
   - {t: ., h: RIGHT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - GLOBE
+  - Sft+Gui+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+4
+  - GLOBE
   - {t: ▽, type: trans}
   NUMBER:
   - F1
