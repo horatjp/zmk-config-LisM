@@ -144,7 +144,7 @@
                 &trans          &trans              &trans  &trans  &trans              &trans  &trans  &trans  &trans                     &trans
                 &mt LEFT_GUI A  &trans              &trans  &trans  &trans              &trans  &trans  &trans  &trans                     &mt RIGHT_GUI MINUS
                 &trans          &mt LEFT_CONTROL X  &trans  &trans  &trans              &trans  &trans  &trans  &mt RIGHT_CONTROL DOT      &trans
-                &trans          &trans              &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+                &trans          &kp GLOBE           &kp LS(LG(N4))  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(LG(N4))  &kp GLOBE  &trans
             >;
 
             sensor-bindings = <&encoder_kp UP DOWN>;
